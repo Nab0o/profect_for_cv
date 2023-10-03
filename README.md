@@ -1,4 +1,4 @@
-# project_cv
+# project_for_cv
 regression ui autotests on python.
 This project was made for CV with example of code. This code can run only on machine with access to local testing server (ift) on specific commercial project.
 all urls and names of project were removed to keep nda.
@@ -15,5 +15,5 @@ py -m pytest --alluredir=tests/allure_results -v --tb=line -m smoke
 для выгрузки отчета:
 allure serve C:\Users\{username}\project_cv\tests\allure_results
 Результаты:
-![allure report 1](https://github.com/Nab0o/projectT/blob/main/allure%20report%201.jpg "allure report 1")
-![allure report 2](https://github.com/Nab0o/projectT/blob/main/allure%20report%202.jpg "allure report 2")
+![allure report 1](https://github.com/Nab0o/project_for_cv/blob/main/allure%20report%201.jpg "allure report 1")
+![allure report 2](https://github.com/Nab0o/project_for_cv/blob/main/allure%20report%202.jpg "allure report 2")
