@@ -15,5 +15,5 @@ py -m pytest --alluredir=tests/allure_results -v --tb=line -m smoke
 для выгрузки отчета:
 allure serve C:\Users\{username}\project_cv\tests\allure_results
 Результаты:
-![allure report 1](https://github.com/Nab0o/project_for_cv/blob/main/allure%20report%201.jpg "allure report 1")
-![allure report 2](https://github.com/Nab0o/project_for_cv/blob/main/allure%20report%202.jpg "allure report 2")
+![allure report 1](https://github.com/Nab0o/profect_for_cv/blob/master/allure%20report%201.jpg "allure report 1")
+![allure report 2](https://github.com/Nab0o/profect_for_cv/blob/master/allure%20report%202.jpg "allure report 2")
