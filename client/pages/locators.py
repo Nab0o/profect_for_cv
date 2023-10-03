@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class BasePageLocators():
-    sbertransport_icon = (By.XPATH, "//div[text()='СберТранспорт']")
+    sbertransport_icon = (By.XPATH, "//div[text()='projectname']")
     USER_ICON = (By.CSS_SELECTOR, ".ant-avatar")
     personal_drop_menu_locator = (By.XPATH, "//span[text()='В. А. Ямсков']")  #Для конкретного пользователя 
     personal_drop_menu_profile_locator = (By.XPATH, "//span[text()='Профиль']") 
