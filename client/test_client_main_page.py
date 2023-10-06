@@ -1,7 +1,7 @@
 from client.pages.login_page import LoginPage
 from client.pages.main_page import MainPage
 
-from global_variables import clienturl, linkclientcreate
+from global_variables import clienturl, linkclientcreate, username, password
 
 import pytest
 
@@ -13,8 +13,6 @@ class TestUserGoFromMainPage():
         page = LoginPage(browser, clienturl)
         page.open()
         page.should_be_login_page()
-        username = "JamskovV-A"
-        password = "bgh251f2"
         page.login(username, password)
         page.should_be_authorized_user()
         
